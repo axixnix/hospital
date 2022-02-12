@@ -87,7 +87,10 @@
             @if(Route::has('login'))
 
             @auth
-                <h1>user is logged in!</h1>
+
+            <x-app-layout>
+
+            </x-app-layout><!-- these two lines are responsible for creating the logout option -->
 
                 @else
 
